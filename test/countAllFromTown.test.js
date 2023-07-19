@@ -1,3 +1,6 @@
+import assert from "assert";
+import countAllFromTown from "../countAllFromTown.js";
+
 describe('countAllFromTown' , function(){
     it('should return 3 for registration starting with "CL"' , function(){
         var fromStellies = countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CL');

@@ -1,3 +1,6 @@
+import assert from "assert";
+import fromWhere from "../fromWhere.js";
+
 describe('fromWhere' , function(){
     it('should return Bellville if the registration number starts with "CY"' , function(){
         assert.equal(fromWhere('CY 567489'), 'Bellville');

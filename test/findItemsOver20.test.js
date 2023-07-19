@@ -1,3 +1,5 @@
+import assert from "assert";
+import findItemsOver20 from "../findItemsOver20.js";
 
 var fruits = [
     {name : 'apples', qty : 10},

@@ -1,3 +1,6 @@
+import assert from "assert";
+import findItemsOver from "../findItemsOver.js";
+
 var fruits = [
     {name : 'apples', qty : 10},
     {name : 'pears', qty : 37},

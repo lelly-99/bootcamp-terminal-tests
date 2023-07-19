@@ -1,3 +1,7 @@
+import assert from "assert";
+import countRegNumber from "../countRegNumber.js";
+
+
 describe('countRegNumber' , function(){
     it('should return 1 for a string with one registration number "RG 45 HN GP"' , function(){
         assert.equal(countRegNumber("RG 45 HN GP"), 1);
