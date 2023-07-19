@@ -1,5 +1,5 @@
 import assert from "assert";
-import countAllFromTown from "../countAllFromTown.js";
+import countAllFromTown from "../js/countAllFromTown.js";
 
 describe('countAllFromTown' , function(){
     it('should return 3 for registration starting with "CL"' , function(){

@@ -1,5 +1,5 @@
 import assert from "assert";
-import isFromBellville from "../isFromBellville.js";
+import isFromBellville from "../js/isFromBellville.js";
 
 describe('isFromBellville' , function(){
     it('should return true for registration numbers starting with "CY"' , function(){

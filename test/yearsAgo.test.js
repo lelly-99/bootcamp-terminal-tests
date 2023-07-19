@@ -1,5 +1,5 @@
 import assert from "assert";
-import yearsAgo from "../yearsAgo.js";
+import yearsAgo from "../js/yearsAgo.js";
 
 describe('yearsAgo' , function(){
     it('should return 47 for the years that have passed since the year "1976"' , function(){

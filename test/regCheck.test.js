@@ -1,5 +1,5 @@
 import assert from "assert";
-import regCheck from "../regCheck.js";
+import regCheck from "../js/regCheck.js";
 
 describe('regCheck' , function(){
     it('should return true for registration number ending with "GP"' , function(){
