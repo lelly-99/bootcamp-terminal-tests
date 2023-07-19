@@ -10,8 +10,8 @@ describe('The greet function', function() {
     assert.equal('Hello, Karen', greet('Karen'));
   });
 
-  it('should greet Lee correctly', function() {
-    assert.equal('Hello, Lee', greet('Lee'));
+  it('should greet Lelly correctly', function() {
+    assert.equal('Hello, Lelly', greet('Lelly'));
   });
 
   it('should greet Lethabo correctly', function() {
