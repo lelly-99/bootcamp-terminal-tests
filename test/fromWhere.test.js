@@ -3,15 +3,15 @@ import fromWhere from "../fromWhere.js";
 
 describe('fromWhere' , function(){
     it('should return Bellville if the registration number starts with "CY"' , function(){
-        assert.equal(fromWhere('CY 567489'), 'Bellville');
+        assert.equal(fromWhere('CY 564089'), 'Bellville');
     });
 
     it('should return Paarl if the registration number starts with "CJ"' , function(){
-        assert.equal(fromWhere('CJ 567489'), 'Paarl');
+        assert.equal(fromWhere('CJ 567589'), 'Paarl');
     });
 
     it('should return Cape Town if the registration number starts with "CA"' , function(){
-        assert.equal(fromWhere('CA 567489'), 'Cape Town'); 
+        assert.equal(fromWhere('CA 574849'), 'Cape Town'); 
     });
 
     it('should return Stellenbosch if the registration number starts with "CL"' , function(){
